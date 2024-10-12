@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Khmer OS Muol Light';
+    src: url('path/to/KhmerOSMuolLight.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Hanuman&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    scroll-behavior: smooth;
+}
+
+.bg-header-color {
+    background-color: #39A753;
+}
+
+.bg-footer-color {
+    background-color: #9780c4;
+}
+
+.gold {
+    color: gold;
+}
+
+.heavy-gold {
+    color: hsl(51, 100%, 45%);
+}
+
+.Muol-Light {
+    font-family: 'Khmer OS Muol Light';
+    font-weight: 100;
+}
+
+.Noto-Sans-Khmer {
+    font-family: 'Noto Sans Khmer';
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.Times-New-Roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Poppins {
+    font-family: 'Poppins';
+}
+
+.Hanuman {
+    font-family: 'Hanuman';
+}
+
+.JetBrains-Mono {
+    font-family: 'JetBrains Mono';
+}
+
+.Monospace {
+    font-family: monospace;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.max-width-80 {
+    max-width: 5rem;
+}
+
+.max-width-100 {
+    max-width: 6.25rem;
+}
+
+.max-width-150 {
+    max-width: 9.375rem;
+}
+
+.max-width-300 {
+    max-width: 18.75rem;
+}
+
+.line-height {
+    line-height: 1.5;
+}
+
+.text-teal-green {
+    color: #068b5f;
+}
+
+.text-azure-blue {
+    color: #127acf;
+}
+
+.underline-text {
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    text-decoration-thickness: .25rem;
+}
+
+.scale:hover {
+    transform: scale(2);
+    transition-duration: 1.5s;
+}
+
+.scale-1_1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    border-radius: .8rem;
+}
+
+.scale-1_5:hover {
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+
+.text-lavender {
+    color: #9780c4;
+}
+
+.heart:hover {
+    cursor: grab;
+}
+
+.p-list {
+    position: relative;
+}
+
+.p-list .fa-play {
+    display: none;
+}
+
+.p-list:hover .fa-play {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    color: grey;
+    top: 40%;
+    left: 50%;
+}
+
+.like {
+    background-color: rgb(238, 235, 235);
+    border-radius: .5rem;
+    height: 2rem;
+    width: 8rem;
+}
+
+.like:hover {
+    cursor: grab;
+    color: rgb(1, 161, 108);
+}
+
+@media screen and (max-width: 468px) {
+    .Muol-Light, .Times-New-Roman, .Noto-Sans-Khmer {
+        font-size: 1.2rem;
+    }
+    .shrink {
+        width: 5.5rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Muol-Light, .Times-New-Roman, .Noto-Sans-Khmer {
+        font-size: .9rem;
+    }
+    .dropdown-menu .dropdown-item {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .h6 {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (min-width: 1580px) {
+    .h6 {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 1780px) {
+    .h6 {
+        font-size: .85rem;
+    }
+}
+
+@media screen and (min-width: 1960px) {
+    .h6 {
+        font-size: .95rem;
+    }
+}
